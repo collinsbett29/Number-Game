@@ -23,10 +23,10 @@ const GameScreen = props => {
   const currentLow = useRef(1);
   const currentHigh = useRef(100);
 
-  const {userChoice, onGameOver} = props;
+  const { userChoice, onGameOver } = props;
 
   useEffect(() => {
-    if (currentGuess === props.userChoice) {
+    if (currentGuess === userChoice) {
       onGameOver(rounds);
 
     }
