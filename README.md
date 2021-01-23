@@ -3,6 +3,7 @@ This is a very simple game, an exercise in working with node, async functions an
 
 ## Dependencies:
 node.js & npm
+React Native
 
 
 To run:
@@ -10,3 +11,5 @@ To run:
 * cd number-game
 * npm install
 * node game.js
+* npm start
+
